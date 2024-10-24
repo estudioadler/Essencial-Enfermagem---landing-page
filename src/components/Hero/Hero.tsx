@@ -15,12 +15,12 @@ export const Hero = () => {
         </p>
       </div>
 
-      <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+      <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4">
         <div className="bg-blue-950 text-blue-50 p-4 md:p-16 flex flex-col gap-4 justify-center items-center sm:items-start">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col gap-2">
             <div className="text-5xl text-blue-500">+50</div>
             <div>
-              Famílias <br />
+              Famílias
               atendidas
             </div>
           </div>
@@ -39,7 +39,7 @@ export const Hero = () => {
         />
 
         <div className="bg-blue-950 text-blue-50 p-4 md:p-16 flex flex-col gap-4 justify-center items-center sm:items-start">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col gap-2">
             <div className="text-5xl text-blue-500">+15</div>
             <div>Anos de experiencia</div>
           </div>
@@ -65,7 +65,7 @@ export const Hero = () => {
         />
 
         <div className="bg-secondary text-primary font-medium p-4 md:p-16 flex flex-col gap-4 justify-center items-center sm:items-start">
-          <div className="sm:text-center">
+          <div className="flex flex-col gap-2">
             <div className="text-5xl text-blue-500">+30</div>
             <div>Profissionais</div>
           </div>
@@ -83,7 +83,7 @@ export const Hero = () => {
         />
 
         <div className="bg-secondary text-primary font-medium p-4 md:p-16 flex flex-col gap-4 justify-center items-center sm:items-start">
-          <div className="flex flex-col items-center sm:text-center">
+          <div className="flex flex-col gap-2">
             <div className="text-5xl text-blue-500">+100</div>
             <div>Avaliações</div>
           </div>

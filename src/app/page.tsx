@@ -1,4 +1,5 @@
-import ContactSidebar from "@/components/ContactSidebar/ContactSidebar";
+import { Benefits } from "@/components/Benfits/Benefits";
+import Contact from "@/components/Contact/Contact";
 import { DiferencialAccordion } from "@/components/DiferencialAccordion/DiferencialAccordion";
 import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header/Header";
@@ -15,11 +16,13 @@ export default function Home() {
       <Hero />
       {/* sobre */}
       <SectionAbout />
+      <Benefits  />
       {/* diferencial */}
       <DiferencialAccordion />
+      {/* testimonial */}
       <Testmonial />
       <WorkContact />
-      <ContactSidebar />
+      <Contact />
       {/* footer */}
       <Footer />
     </>

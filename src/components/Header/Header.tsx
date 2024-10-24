@@ -21,7 +21,11 @@ export const Header = () => {
       href: "#",
     },
     {
-      label: "servicos",
+      label: "serviços",
+      href: "#",
+    },
+    {
+      label: "benefícios",
       href: "#",
     },
     {
@@ -46,9 +50,9 @@ export const Header = () => {
           width={28}
           height={28}
         />
-        <div className="flex flex-col -space-y-1.5 leading-none text-blue-950 mb-1">
-          <span className="font-medium text-sm">essencial</span>
-          <span className="font-medium text-sm">enfermagem</span>
+        <div className="flex flex-col -space-y-1.5 leading-none text-blue-900 mb-1">
+          <span className="font-semibold text-sm">essencial</span>
+          <span className="font-semibold text-sm">enfermagem</span>
         </div>
       </Link>
 

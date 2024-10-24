@@ -84,7 +84,7 @@ export function DiferencialAccordion() {
           <Accordion type="single" collapsible className="w-full">
             {leftItems.map((item) => (
               <AccordionItem key={item.value} value={item.value}>
-                <AccordionTrigger>{item.trigger}</AccordionTrigger>
+                <AccordionTrigger className="text-base md:text-xl">{item.trigger}</AccordionTrigger>
                 <AccordionContent>{item.content}</AccordionContent>
               </AccordionItem>
             ))}
@@ -94,7 +94,7 @@ export function DiferencialAccordion() {
           <Accordion type="single" collapsible className="w-full">
             {rightItems.map((item) => (
               <AccordionItem key={item.value} value={item.value}>
-                <AccordionTrigger>{item.trigger}</AccordionTrigger>
+                <AccordionTrigger className="text-base md:text-xl">{item.trigger}</AccordionTrigger>
                 <AccordionContent>{item.content}</AccordionContent>
               </AccordionItem>
             ))}

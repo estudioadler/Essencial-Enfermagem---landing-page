@@ -60,11 +60,11 @@ export default function Testimonial() {
   ]);
 
   return (
-    <div className="w-full container mx-auto py-20 md:py-32 flex flex-col gap-6">
-      <div className="flex flex-col gap-4">
-        <span className="title-section">quem somos</span>
+    <div className="w-full container mx-auto py-20 flex flex-col gap-12">
+      <div className="flex flex-col gap-4 lg:ml-6">
+        <span className="title-section">Depoimentos</span>
         <h2 className="text-4xl max-w-sm">
-          A maior empresa de cuidadores de Minas
+          O que nossos clientes dizem sobre nós{" "}
         </h2>
       </div>
       <div className="overflow-hidden" ref={emblaRef}>
@@ -74,11 +74,11 @@ export default function Testimonial() {
               key={index}
               className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%]"
             >
-              <Card className="border-none shadow-none bg-secondary rounded-lg">
+              <Card className="border-none shadow-none bg-secondary md:bg-background rounded-lg">
                 <CardContent className="flex flex-col gap-4 aspect-square justify-center items-start p-6">
                   <div className="flex flex-col items-start">
                     <p className="text-right">{testemunho.nome}</p>
-                    <p className="text-right text-neutral-500">
+                    <p className="text-right text-muted-foreground">
                       {testemunho.cargo}
                     </p>
                   </div>

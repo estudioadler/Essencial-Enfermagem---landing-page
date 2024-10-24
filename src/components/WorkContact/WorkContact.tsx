@@ -60,24 +60,24 @@ export default function WorkContact() {
   return (
     <div>
       <div>
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-          <div className="flex-1">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between bg-secondary">
+          <div className="flex-1 aspect-square">
             <Image
               src="/contact.jpg"
               alt="logotipo essencial enfermagem"
               width={1000}
               height={1000}
-              className="w-full h-full object-cover aspect-square "
+              className="w-full h-full object-cover"
             />
           </div>
 
-          <div className="flex-1 flex flex-col justify-between aspect-square p-12">
+          <div className="flex-1 flex flex-col p-12">
             <div className="flex flex-col gap-4">
               <span className="title-section">Trabalhe Conosco</span>
               <h2>Junte-se à nossa equipe!</h2>
               <p>
-                 Envie seu currículo agora e faça parte
-                da nossa história de sucesso.
+                Envie seu currículo agora e faça parte da nossa história de
+                sucesso.
               </p>
             </div>
             <Form {...form}>
@@ -121,12 +121,13 @@ export default function WorkContact() {
                   render={({ field: { onChange, value, ...field } }) => (
                     <FormItem>
                       <FormLabel>Currículo</FormLabel>
-                      <FormControl>
+                      <FormControl className="cursor-pointer">
                         <Input
                           type="file"
                           onChange={(e) => onChange(e.target.files)}
                           accept=".pdf,.doc,.docx"
                           {...field}
+                          
                         />
                       </FormControl>
                       <FormMessage />
@@ -141,7 +142,7 @@ export default function WorkContact() {
                 )}
                 <Button
                   type="submit"
-                  className="w-full bg-blue-500  hover:bg-blue-100"
+                  className="w-full rounded-full bg-blue-950"
                 >
                   Enviar Candidatura
                 </Button>
