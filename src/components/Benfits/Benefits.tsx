@@ -2,16 +2,13 @@ import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import {
   Home,
-  Users,
   Shield,
   Clock,
   Stethoscope,
-  Banknote,
   HeartPulse,
   Smile,
   ShieldCheck,
   PiggyBank,
-  LucideIcon,
 } from "lucide-react";
 
 const benefits = [

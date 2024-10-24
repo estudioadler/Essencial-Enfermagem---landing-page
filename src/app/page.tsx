@@ -12,18 +12,13 @@ export default function Home() {
   return (
     <>
       <Header />
-      {/* hero */}
       <Hero />
-      {/* sobre */}
       <SectionAbout />
       <Benefits  />
-      {/* diferencial */}
       <DiferencialAccordion />
-      {/* testimonial */}
       <Testmonial />
       <WorkContact />
       <Contact />
-      {/* footer */}
       <Footer />
     </>
   );

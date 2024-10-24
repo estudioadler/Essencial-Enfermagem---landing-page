@@ -1,4 +1,3 @@
-import { Subtitles } from 'lucide-react';
 import React from 'react'
 
 type TitleSectionProps = {

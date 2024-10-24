@@ -1,5 +1,4 @@
-import { TitleSection } from "../TitleSection/TitleSection";
-import { Button } from "../ui/button";
+
 
 export const SectionAbout = () => {
 	return (
