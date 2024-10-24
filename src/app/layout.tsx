@@ -14,31 +14,31 @@ const myFont = localFont({
   variable: "--font-mono",
   src: [
     {
-      path: "/fonts/Paralucent-thin.ttf",
+      path: "../../public/fonts/Paralucent-thin.ttf",
       weight: "100", // peso fino
     },
     {
-      path: "/fonts/Paralucent-ExtraLight.ttf",
+      path: "../../public/fonts/Paralucent-ExtraLight.ttf",
       weight: "200", // peso leve
     },
     {
-      path: "/fonts/Paralucent-Light.ttf",
+      path: "../../public/fonts/Paralucent-Light.ttf",
       weight: "300", // peso leve
     },
     {
-      path: "/fonts/Paralucent-Medium.ttf",
+      path: "../../public/fonts/Paralucent-Medium.ttf",
       weight: "500", // peso médio
     },
     {
-      path: "/fonts/Paralucent-DemiBold.ttf",
+      path: "../../public/fonts/Paralucent-DemiBold.ttf",
       weight: "600", // peso semi-negrito
     },
     {
-      path: "/fonts/Paralucent-Bold.ttf",
+      path: "../../public/fonts/Paralucent-Bold.ttf",
       weight: "700", // peso negrito
     },
     {
-      path: "/fonts/Paralucent-Heavy.ttf",
+      path: "../../public/fonts/Paralucent-Heavy.ttf",
       weight: "900", // peso pesado
     },
   ],
