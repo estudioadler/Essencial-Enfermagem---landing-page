@@ -15,12 +15,12 @@ const paralucent = localFont({
   src: [
     // Extra Light (200)
     {
-      path: "../../public/fonts/paralucent-ExtraLight.woff2",
+      path: "../../public/fonts/paralucent-extralight.woff2",
       weight: "200",
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-ExtraLightItalic.woff2",
+      path: "../../public/fonts/paralucent-extralightitalic.woff2",
       weight: "200",
       style: "italic",
     },
@@ -32,67 +32,67 @@ const paralucent = localFont({
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-thinItalic.woff2",
+      path: "../../public/fonts/paralucent-thinitalic.woff2",
       weight: "300",
       style: "italic",
     },
     
     // Light (400)
     {
-      path: "../../public/fonts/paralucent-Light.woff2",
+      path: "../../public/fonts/paralucent-light.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-LightItalic.woff2",
+      path: "../../public/fonts/paralucent-lightitalic.woff2",
       weight: "400",
       style: "italic",
     },
     
     // Medium (500)
     {
-      path: "../../public/fonts/paralucent-Medium.woff2",
+      path: "../../public/fonts/paralucent-medium.woff2",
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-MediumItalic.woff2",
+      path: "../../public/fonts/paralucent-mediumitalic.woff2",
       weight: "500",
       style: "italic",
     },
     
     // Demi Bold (600)
     {
-      path: "../../public/fonts/paralucent-DemiBold.woff2",
+      path: "../../public/fonts/paralucent-demibold.woff2",
       weight: "600",  
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-DemiBoldItalic.woff2",
+      path: "../../public/fonts/paralucent-demibolditalic.woff2",
       weight: "600",
       style: "italic",
     },
     
     // Bold (700)
     {
-      path: "../../public/fonts/paralucent-Bold.woff2",
+      path: "../../public/fonts/paralucent-bold.woff2",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-BoldItalic.woff2",
+      path: "../../public/fonts/paralucent-bolditalic.woff2",
       weight: "700",
       style: "italic",
     },
     
     // Heavy (800)
     {
-      path: "../../public/fonts/paralucent-Heavy.woff2",
+      path: "../../public/fonts/paralucent-heavy.woff2",
       weight: "800",
       style: "normal",
     },
     {
-      path: "../../public/fonts/paralucent-HeavyItalic.woff2",
+      path: "../../public/fonts/paralucent-heavyitalic.woff2",
       weight: "800",
       style: "italic",
     },
