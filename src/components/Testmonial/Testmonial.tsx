@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 interface Testemunho {
   nome: string;
@@ -69,14 +70,24 @@ export default function Testimonial() {
               key={index}
               className="flex-[0_0_100%] min-w-0 md:flex-[0_0_50%] lg:flex-[0_0_33.333%]"
             >
-              <Card className="border-none shadow-none bg-secondary md:bg-background rounded-lg">
-                <CardContent className="flex flex-col gap-4 aspect-square justify-center items-start p-6">
-                  <div className="flex flex-col items-start">
-                    <p className="text-right">{testemunho.nome}</p>
-                    <p className="text-right text-muted-foreground">
-                      {testemunho.cargo}
-                    </p>
+              <Card className="border-none bg-secondary md:bg-background rounded-lg">
+                <CardContent className="flex flex-col gap-4 aspect-square justify-center items-start">
+                  <div className="flex gap-3 items-center">
+                    <Avatar>
+                      <AvatarImage
+                        src="https://github.com/shadcn.png"
+                        alt="@shadcn"
+                      />
+                      <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <div className="flex flex-col -space-y-1 items-start">
+                      <p className="text-right">{testemunho.nome}</p>
+                      <p className="text-right text-muted-foreground text-sm">
+                        {testemunho.cargo}
+                      </p>
+                    </div>
                   </div>
+
                   <div className="flex flex-col gap-2">
                     <div>
                       <Quote className="size-3" />

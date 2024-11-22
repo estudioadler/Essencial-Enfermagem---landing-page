@@ -77,14 +77,14 @@ export const Benefits = () => {
           Veja os Benefícios de contratar nossos serviços.
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {benefits.map((benefit) => (
           <Card
             key={benefit.title}
-            className="flex flex-col rounded-none shadow-none border-none"
+            className="flex flex-col rounded-lg shadow-none p-6"
           >
             <CardHeader className="p-0">
-              <CardTitle className="flex flex-col gap-4">
+              <CardTitle className="flex flex-col gap-4 mb-2">
                 <benefit.icon
                   strokeWidth={1.5}
                   className="h-8 w-8  text-blue-500"

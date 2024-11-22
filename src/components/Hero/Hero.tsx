@@ -1,28 +1,36 @@
 import Image from "next/image";
+import { Button } from "../ui/button";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col bg-blue-700 pt-20">
       <div className="flex flex-col gap-8 md:gap-0 md:flex-row justify-between container mx-auto px-6 sm:px-16 py-12 sm:py-28">
         <h1 className="flex-1">
           Conectamos famílias com cuidadores profissionais de confiança.
         </h1>
-        <p className="flex-1 md:pl-28">
-          Com base em uma cuidadosa seleção de profissionais, a Essencial
-          Enfermagem emprega seleciona o cuidador mais adequado para cuidar de
-          quem você ama. Em casa, no hospital ou em qualquer lugar pelo tempo
-          que for preciso.
-        </p>
+        <div className="flex-1">
+          <p className="flex-1 md:pl-28 text-blue-50 font-normal">
+            Com base em uma cuidadosa seleção de profissionais, a Essencial
+            Enfermagem emprega seleciona o cuidador mais adequado para cuidar de
+            quem você ama. Em casa, no hospital ou em qualquer lugar pelo tempo
+            que for preciso.
+          </p>
+        </div>
+        <button className="w-fit group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-blue-200">
+          <div className="inline-flex h-12 translate-y-0 items-center justify-center bg-blue-50 px-6 text-blue-950 transition group-hover:-translate-y-[150%]">
+            Contratar cuidador
+          </div>
+          <div className="absolute inline-flex h-12 translate-y-[100%] items-center justify-center bg-blue-700 px-6 text-blue-50 transition duration-300 group-hover:translate-y-0">
+            Contratar cuidador
+          </div>
+        </button>
       </div>
 
-      <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4">
+      {/* <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4">
         <div className="bg-blue-950 text-blue-50 p-4 md:p-16 flex flex-col gap-4 justify-center items-center sm:items-start">
           <div className="flex flex-col gap-2">
             <div className="text-5xl text-blue-500">+50</div>
-            <div>
-              Famílias
-              atendidas
-            </div>
+            <div>Famílias atendidas</div>
           </div>
           <p className="hidden md:flex">
             Atendimento com uma equipe profissional dedicada ao bem estar e
@@ -92,7 +100,7 @@ export const Hero = () => {
             cuidados com seus familiares.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

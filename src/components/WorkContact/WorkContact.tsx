@@ -71,7 +71,7 @@ export default function WorkContact() {
             />
           </div>
 
-          <div className="flex-1 flex flex-col p-12">
+          <div className="flex-1 flex flex-col gap-8 px-6 py-12">
             <div className="flex flex-col gap-4">
               <span className="title-section">Trabalhe Conosco</span>
               <h2>Junte-se à nossa equipe!</h2>
@@ -127,7 +127,6 @@ export default function WorkContact() {
                           onChange={(e) => onChange(e.target.files)}
                           accept=".pdf,.doc,.docx"
                           {...field}
-                          
                         />
                       </FormControl>
                       <FormMessage />
@@ -140,12 +139,14 @@ export default function WorkContact() {
                     <span className="text-sm">{submitError}</span>
                   </div>
                 )}
-                <Button
-                  type="submit"
-                  className="w-full rounded-full bg-blue-950"
-                >
-                  Enviar Candidatura
-                </Button>
+                <button className="w-full group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border border-blue-950">
+                  <div className="w-full inline-flex h-12 translate-y-0 items-center justify-center bg-blue-700 px-6 text-blue-50 transition group-hover:-translate-y-[150%]">
+                    Contratar cuidador
+                  </div>
+                  <div className="absolute w-full inline-flex h-12 translate-y-[100%] items-center justify-center bg-blue-50 px-6 text-blue-950 transition duration-300 group-hover:translate-y-0">
+                    Contratar cuidador
+                  </div>
+                </button>
               </form>
             </Form>
           </div>
